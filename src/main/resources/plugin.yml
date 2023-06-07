@@ -1,0 +1,20 @@
+name: CustomItems
+version: '$1.0'
+main: io.github.itscoldhere.customitems.CustomItems
+api-version: 1.19
+commands:
+  snowball:
+    description: gives a snow launcher
+    usage: /<command>
+    permission: customItems.snowball
+  enablesnowball:
+    description: on activation it will enable snowLauncher on damage
+    usage: /<command>
+    permission: customItems.snowball
+  flytem:
+    description: on activation will give you the flytem
+    usage: /<command>
+    permission: customItems.flytem
+permissions:
+  customItems.*:
+    default: op
