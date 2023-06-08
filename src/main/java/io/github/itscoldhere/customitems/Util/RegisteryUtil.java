@@ -57,6 +57,12 @@ public class RegisteryUtil {
         else{stack.addUnsafeEnchantment(ench, 1);}
 
     }
+
+    public void setCustomModelData(int i){
+        ItemMeta meta = stack.getItemMeta();
+        meta.setCustomModelData(i);
+        stack.setItemMeta(meta);
+    }
     public void SetItemStack(ItemStack otherstack){stack = otherstack;}
     public ItemStack GetItemStack(){
         return stack;

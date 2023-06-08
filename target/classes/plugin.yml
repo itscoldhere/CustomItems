@@ -15,6 +15,10 @@ commands:
     description: on activation will give you the flytem
     usage: /<command>
     permission: customItems.flytem
+  fireball:
+    description: Gives you a fireball launcher
+    usage: /<command>
+    permission: customItems.fireball
 permissions:
   customItems.*:
     default: op

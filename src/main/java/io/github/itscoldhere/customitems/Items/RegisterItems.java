@@ -6,5 +6,6 @@ public class RegisterItems {
     public static void registerItems() {
         ActualRegistery.register(new snowball());
         ActualRegistery.register(new Flytem());
+        ActualRegistery.register(new FireBallLauncher());
     }
 }
