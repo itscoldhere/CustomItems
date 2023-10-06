@@ -14,6 +14,7 @@ public class GiveFireBallLauncher implements CommandExecutor {
             Player player = (Player) commandSender;
             FireBallLauncher fr = new FireBallLauncher();
             player.getInventory().addItem(fr.getItemStack());
+            return true;
         }
         return false;
     }

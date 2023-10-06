@@ -64,7 +64,7 @@ public class RegisteryUtil {
         stack.setItemMeta(meta);
     }
     public void SetItemStack(ItemStack otherstack){stack = otherstack;}
-    public ItemStack GetItemStack(){
+    public ItemStack getItemStack(){
         return stack;
     }
 }

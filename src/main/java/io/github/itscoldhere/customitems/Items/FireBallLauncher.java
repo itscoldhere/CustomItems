@@ -25,7 +25,7 @@ public class FireBallLauncher implements ItemUtil {
     public @NotNull ItemStack getItemStack() {
         RegisteryUtil Util = new RegisteryUtil(Material.STICK, "FireBall Launcher", "fireballlauncher", "A powerful tool that let's you become a being of fire", "With this tool you can shoot fireballs", "Right click to shoot fireballs");
         Util.setCustomModelData(44);
-        return Util.GetItemStack();
+        return Util.getItemStack();
     }
 
     @Override

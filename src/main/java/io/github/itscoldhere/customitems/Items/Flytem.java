@@ -25,7 +25,7 @@ public class Flytem implements ItemUtil {
     public @NotNull ItemStack getItemStack() {
         RegisteryUtil stack = new RegisteryUtil(Material.STICK, "Flytem", "flytem", "A powerful tool that lets the user fly on command", "Right click to fly");
         stack.setCustomModelData(43);
-        return stack.GetItemStack();
+        return stack.getItemStack();
     }
 
     @Override

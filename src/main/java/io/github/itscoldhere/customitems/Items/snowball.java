@@ -28,7 +28,7 @@ public class snowball implements ItemUtil {
     public @NotNull ItemStack getItemStack() {
         RegisteryUtil util = new RegisteryUtil(Material.STICK, "Snownall Launcher", "snowball", "Just Another Snowball launcher", "Right click to shoot a snowball");
         util.addEnchant(Enchantment.KNOCKBACK, 30);
-        return util.GetItemStack();
+        return util.getItemStack();
     }
 
     @Override

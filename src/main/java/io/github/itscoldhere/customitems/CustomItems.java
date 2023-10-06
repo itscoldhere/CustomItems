@@ -1,9 +1,6 @@
 package io.github.itscoldhere.customitems;
 
-import io.github.itscoldhere.customitems.Commands.EnableSnowBall;
-import io.github.itscoldhere.customitems.Commands.GiveFireBallLauncher;
-import io.github.itscoldhere.customitems.Commands.GiveFlytem;
-import io.github.itscoldhere.customitems.Commands.GiveSnowLauncher;
+import io.github.itscoldhere.customitems.Commands.*;
 import io.github.itscoldhere.customitems.Handlers.PlayerHandler;
 import io.github.itscoldhere.customitems.Items.RegisterItems;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -18,6 +15,9 @@ public final class CustomItems extends JavaPlugin {
         this.getCommand("enablesnowball").setExecutor(new EnableSnowBall());
         this.getCommand("flytem").setExecutor(new GiveFlytem());
         this.getCommand("fireball").setExecutor(new GiveFireBallLauncher());
+        this.getCommand("aote").setExecutor(new GiveAOTE());
+        this.getCommand("annoying").setExecutor(new AnnoythemEXE());
+        this.getCommand("heal").setExecutor(new Heal());
     }
 
     @Override
